@@ -22,9 +22,6 @@ Todos los padres y apoderados de los miembros beneficiarios del grupo son parte 
 <amp-img width="400" height="267" layout="fixed" alt="Nuestros Apoderados" src="/assets/images/apoderados2.jpg"></amp-img>
 {: .right .fillll}
 
-{% image /assets/images/apoderados2.jpg 400 267 raw %}
-{: .right}
-
 El Comité de Grupo debe elegir año a año a un presidente y un tesorero, así como un representante por cada rango de edad de las ramas menores (7 a 11 años), intermedias (11 a 15 años) y mayores (15 a 20 años), siempre que éstas no estén representadas en el presidente o tesorero.
 
 Aquellos dirigentes y guiadoras del grupo que fueran padres de jóvenes miembros de grupo, que ocupen los cargos de responsable de grupo, asistente de grupo, responsable de unidad y asistente de unidad no podrán acceder a cargos ni participar de las reuniones, en su calidad de padres o apoderados del comité de grupo.
