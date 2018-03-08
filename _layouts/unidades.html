@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<main class="max-width-6 mx-auto" role="main">
+	<article class="clearfix" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+		<link itemprop="additionalType" href="http://schema.org/Article"/>
+		<div class="col sm-col-12 md-col-9 contenido my2">
+			<h1 class="c_titulo center" itemprop="name">{{page.title}}</h1>
+			{% unless page.svg == nil %}
+			<object class="logo_unidad" data="{{site.baseurl}}/{{page.svg}}" type="image/svg+xml">
+				<img src="/assets/images/NuaMana.png" />
+			</object>
+			{% endunless %}
+			{{ content }}
+		</div>
+		<aside class="col sm-col-12 md-col-3 pt2 pl1">
+			<amp-facebook-page height="435" width="340"
+				layout="fixed"
+				data-hide-cover="true"
+				data-locale="es"
+				data-small-header="true"
+				data-show-facepile="false"
+				data-tabs="timeline, events, messages"
+				data-href="https://www.facebook.com/gruponuamana/">
+			</amp-facebook-page>
+		</aside>
+	</article>
+</main>
