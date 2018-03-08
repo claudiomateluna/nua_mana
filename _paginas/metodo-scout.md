@@ -9,7 +9,6 @@ categories:
 Para lograr nuestros objetivos recurrimos al método scout, que se define como un sistema de autoeducación progresiva, y que constituye un todo integrado en el, se combinan diversos elementos como se muestra a continuación.
 
 <amp-img width="1246" height="747" layout="responsive" alt="Metodo Scout" src="/assets/images/metodo.png"></amp-img>
-{: .right}
 
 El propósito del Movimiento consiste en contribuir a la educación de los jóvenes para que participen en la construcción de un mundo mejor, donde las personas se desarrollen plenamente y jueguen un papel activo en la sociedad.
 

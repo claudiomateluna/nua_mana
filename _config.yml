@@ -23,12 +23,6 @@ markdown: kramdown
 kramdown:
   parse_block_html: true
 
-gems:
-- jekyll-paginate
-
-plugins:
-- shortcodes
-
 collections:
   paginas:
     output: true
