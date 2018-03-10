@@ -67,11 +67,11 @@
     "legalName": "Grupo de Guías y Scouts Nua Mana",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ site.logo | prepend: site.baseurl | prepend: site.url }}",
+      "url": "{{ site.baseurl }}{{ site.logo }}",
       "width": "60",
       "height": "60"
     },
-    "makesOffer": {
+    "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Scouts",
       "itemListElement": [
@@ -111,38 +111,20 @@
     },
     "memberOf": {
       "@type": "Organization",
-      "itemListElement": [
-        {
-          "name": "Organización Mundial del Movimiento Scout",
-          "email": "worldbureau@scout.org",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.scout.org/sites/all/themes/custom/worldscout/logo.png",
-            "width": "195",
-            "height": "47"
-          },
-          "department": {
-            "@type": "Organization",
-            "name": "Organización Scout Interamericana",
-            "email": "interamerica@scout.org"
-          },
-          "url": "https://www.scout.org/"
-        },
-        {
-          "@type": "Organization",
-          "name": "World Association of Girl Guides and Girl Scouts",
-          "email": "wagggs@wagggs.org",
-          "telephone": "+44 20 7794 1181",
-          "faxNumber": "+44 20 7431 3764",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.wagggs.org/static/images/logo-full.png",
-            "width": "288",
-            "height": "288"
-          },
-          "url": "https://www.wagggs.org/"
-        }
-      ]
+      "name": "Organización Mundial del Movimiento Scout",
+      "email": "worldbureau@scout.org",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scout.org/sites/all/themes/custom/worldscout/logo.png",
+        "width": "195",
+        "height": "47"
+      },
+      "department": {
+        "@type": "Organization",
+        "name": "Organización Scout Interamericana",
+        "email": "interamerica@scout.org"
+      },
+      "url": "https://www.scout.org/"
     },
     "parentOrganization": {
       "@type": "Organization",
@@ -163,7 +145,21 @@
         "width": "191",
         "height": "44"
       },
-      "url": "http://guiasyscoutsdechile.cl/"
+      "url": "http://guiasyscoutsdechile.cl/",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "World Association of Girl Guides and Girl Scouts",
+        "email": "wagggs@wagggs.org",
+        "telephone": "+44 20 7794 1181",
+        "faxNumber": "+44 20 7431 3764",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.wagggs.org/static/images/logo-full.png",
+          "width": "288",
+          "height": "288"
+        },
+        "url": "https://www.wagggs.org/"
+      }
     }
   },
   "inLanguage": {
@@ -233,11 +229,11 @@
     "legalName": "Grupo de Guías y Scouts Nua Mana",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ site.logo | prepend: site.baseurl | prepend: site.url }}",
+      "url": "{{ site.baseurl }}{{ site.logo }}",
       "width": "60",
       "height": "60"
     },
-    "makesOffer": {
+    "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Scouts",
       "itemListElement": [
@@ -277,38 +273,20 @@
     },
     "memberOf": {
       "@type": "Organization",
-      "itemListElement": [
-        {
-          "name": "Organización Mundial del Movimiento Scout",
-          "email": "worldbureau@scout.org",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.scout.org/sites/all/themes/custom/worldscout/logo.png",
-            "width": "195",
-            "height": "47"
-          },
-          "department": {
-            "@type": "Organization",
-            "name": "Organización Scout Interamericana",
-            "email": "interamerica@scout.org"
-          },
-          "url": "https://www.scout.org/"
-        },
-        {
-          "@type": "Organization",
-          "name": "World Association of Girl Guides and Girl Scouts",
-          "email": "wagggs@wagggs.org",
-          "telephone": "+44 20 7794 1181",
-          "faxNumber": "+44 20 7431 3764",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.wagggs.org/static/images/logo-full.png",
-            "width": "288",
-            "height": "288"
-          },
-          "url": "https://www.wagggs.org/"
-        }
-      ]
+      "name": "Organización Mundial del Movimiento Scout",
+      "email": "worldbureau@scout.org",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scout.org/sites/all/themes/custom/worldscout/logo.png",
+        "width": "195",
+        "height": "47"
+      },
+      "department": {
+        "@type": "Organization",
+        "name": "Organización Scout Interamericana",
+        "email": "interamerica@scout.org"
+      },
+      "url": "https://www.scout.org/"
     },
     "parentOrganization": {
       "@type": "Organization",
@@ -329,7 +307,21 @@
         "width": "191",
         "height": "44"
       },
-      "url": "http://guiasyscoutsdechile.cl/"
+      "url": "http://guiasyscoutsdechile.cl/",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "World Association of Girl Guides and Girl Scouts",
+        "email": "wagggs@wagggs.org",
+        "telephone": "+44 20 7794 1181",
+        "faxNumber": "+44 20 7431 3764",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.wagggs.org/static/images/logo-full.png",
+          "width": "288",
+          "height": "288"
+        },
+        "url": "https://www.wagggs.org/"
+      }
     }
   },
   "image": {
