@@ -34,7 +34,6 @@
         "addressCountry": "CL"
         },
         "foundingDate": "1991",
-        "logo": "",
         "logo": {
           "@type": "ImageObject",
           "url": "http://ceas.cl/wp-content/uploads/2017/07/logo-ceas-1.jpg",
@@ -202,7 +201,6 @@
         "addressCountry": "CL"
         },
         "foundingDate": "1991",
-        "logo": "",
         "logo": {
           "@type": "ImageObject",
           "url": "http://ceas.cl/wp-content/uploads/2017/07/logo-ceas-1.jpg",
