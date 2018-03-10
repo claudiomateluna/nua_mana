@@ -326,7 +326,7 @@
   },
   "image": {
     "@type": "ImageObject",
-    "url": "{% if page.img %}{{page.img}}{% else %}{{ site.baseurl }}{{ site.logo }}{% endif %}",
+    "url": "{% if page.img %}{{page.img}}{% else %}http://www.nuamana.com/{{ site.logo }}{% endif %}",
     "height": "300",
     "width": "320"
   }
