@@ -3,12 +3,19 @@
 # Configuraciones del sitio
 
 title: Nua Mana | Guias y Scouts
+name: Guias y Scouts Nua Mana
+address: > 
+  Colegio Nuestra Señora de Guadalupe
+  San Jose de la Estrella 0857
+  La Granja, Santiago, Chile
+  C.P.: 8801000
 email: contacto@nuamana.com
 description: >
   Guias y Scouts Nua Mana, una nueva aventura, nuestro grupo se encuentra en la comuna de La Granja, 
   Region Metropolitana, Chile. Buscamos el desarrollo de niños y jovenes, mediante el empoderamiento, 
   la ciudadania activa, valores y habilidades para la vida, y una educación para la paz.
-logo: "/assets/images/logo.png"
+logo: "/assets/images/logo.svg"
+brand: "/assets/images/brand.png"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 permalink: /:title/

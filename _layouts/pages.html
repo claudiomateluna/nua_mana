@@ -2,10 +2,10 @@
 layout: default
 ---
 <main class="max-width-6 mx-auto" role="main">
-	<article class="clearfix" itemscope itemtype="http://schema.org/Article" role="article">
+	<article class="clearfix" role="article">
 		<div class="col sm-col-12 md-col-9 contenido my2">
-			<h1 class="c_titulo center" itemprop="name">{{page.title}}</h1>
-			<span itemprop="description">{{ content }}</span>
+			<h1 class="c_titulo center">{{page.title}}</h1>
+			{{ content }}
 		</div>
 		<aside class="col sm-col-12 md-col-3 pt2 pl1">
 			<figure class="card-img-top">
@@ -13,8 +13,7 @@ layout: default
 					width="320"
 					height="300"
 					layout="responsive"
-					alt="{{page.title}}"
-					itemprop="image">
+					alt="{{page.title}}">
 					<amp-img placeholder
     					src="/assets/images/NuaMana.png"
     					layout="fill">
@@ -22,17 +21,6 @@ layout: default
 				</amp-img>
 				<figcaption class="hide">{{page.title}}</figcaption>
 			</figure>
-			<div class="hide">
-				<dl>
-					<dt>Autor</dt><dd itemprop="author">Guias y Scouts Nua Mana</dd>
-					<dt>Publicado en</dt><dd itemprop="datePublished">2018</dd>
-					<dt>Titular</dt><dd itemprop="headline">{{page.resumen}}</dd>
-					<dt>Editor</dt><dd itemprop="publisher">Guias y Scouts Nua Mana</dd>
-					<dt>Modificado</dt><dd><time datetime="{{ site.time | date_to_xmlschema }}" itemprop="dateModified"></time></dd>
-					<a href="{{ site.baseurl }}{{ page.url }}" itemprop="url">URL</a>
-					<a itemprop="mainEntityOfPage" href="{{ site.baseurl }}{{ post.url }}"></a>
-				</dl>
-			</div>
 			<amp-facebook-page height="435" width="340"
 				layout="fixed"
 				data-hide-cover="true"

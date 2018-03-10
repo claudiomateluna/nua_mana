@@ -1,0 +1,345 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
+  "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
+  "name":"{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
+  "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+  "dateModified": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+  "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
+  "author": {
+    "@type": "EducationalOrganization",
+    "name": "{{ site.name }}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "San José de la Estrella 0857",
+      "addressLocality": "La Granja",
+      "addressRegion": "Santiago",
+      "addressCountry": "Chile",
+      "postalCode": "8801000"
+    },
+    "email": "contacto@nuamana.com",
+    "foundingDate": "2005-09-23",
+    "funder": {
+      "@type": "School",
+      "name": "Colegio Nuestra Señora de Guadalupe",
+      "parentOrganization": {
+        "@type": "Corporation",
+        "name": "Corporación Educacional del Arzobispado de Santiago",
+        "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Seminario 90",
+        "addressLocality": "Providencia",
+        "addressRegion": "Santiago",
+        "addressCountry": "CL"
+        },
+        "foundingDate": "1991",
+        "logo": "",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "http://ceas.cl/wp-content/uploads/2017/07/logo-ceas-1.jpg",
+          "width": "114",
+          "height": "105"
+        },
+        "telephone": "(562) 2562 2301",
+        "telephone": "(562) 2696 9102",
+        "url": "http://ceas.cl/"
+      },
+      "logo": {
+        "@type": "ImageObject",
+        "url": "http://ceas.cl/wp-content/uploads/2017/05/nuestra-senora-guadalupe.gif",
+        "width": "113",
+        "height": "140"
+      },
+      "foundingDate": "1996",
+      "email": "colegionsg@ceas.cl",
+      "telephone": "(562) 2541 1023",
+      "telephone": "(562) 2541 9631",
+      "faxNumber": "2 2541 0306",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "San José de la Estrella 0857",
+        "addressLocality": "La Granja",
+        "addressRegion": "Santiago",
+        "addressCountry": "CL",
+        "postalCode": "8801000"
+      },
+      "unnamedSourcesPolicy": "http://ceas.cl/wp-content/uploads/2017/10/Proyecto-Educativo-Final.pdf",
+      "unnamedSourcesPolicy": "http://ceas.cl/wp-content/uploads/2017/08/MCE_NSGuadalupe_BR.pdf",
+      "unnamedSourcesPolicy": "http://ceas.cl/wp-content/uploads/2017/10/REGLAMENTO-DE-EVALUACION-Y-PROMOCION-ESCOLAR-2017.pdf",
+      "unnamedSourcesPolicy": "http://ceas.cl/wp-content/uploads/2017/10/Plan-de-Formaci%C3%B3n-Ciudadana_Ceas_2017.pdf",
+      "url": "http://ceas.cl/colegio-nuestra-senora-de-guadalupe-2/"
+    },
+    "legalName": "Grupo de Guías y Scouts Nua Mana",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.logo | prepend: site.baseurl | prepend: site.url }}",
+      "width": "60",
+      "height": "60"
+    },
+    "makesOffer": {
+      "@type": "OfferCatalog",
+      "name": "Scouts",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOfferd": {
+            "@type": "Service",
+            "name": "Escultismo",
+            "serviceType": "Voluntariado"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOfferd": {
+            "@type": "Service",
+            "name": "Scouts",
+            "serviceType": "Voluntariado"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOfferd": {
+            "@type": "Service",
+            "name": "Guías",
+            "serviceType": "Voluntariado"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOfferd": {
+            "@type": "Service",
+            "name": "Educación para la Vida",
+            "serviceType": "Voluntariado"
+          }
+        }
+      ]
+    },
+    "memberOf": {
+      "@type": "Organization",
+      "name": "Organización Mundial del Movimiento Scout",
+      "email": "worldbureau@scout.org",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scout.org/sites/all/themes/custom/worldscout/logo.png",
+        "width": "195",
+        "height": "47"
+      },
+      "department": {
+        "@type": "Organization",
+        "name": "Organización Scout Interamericana",
+        "email": "interamerica@scout.org"
+      },
+      "url": "https://www.scout.org/"
+    },
+    "memberOf": {
+      "@type": "Organization",
+      "name": "World Association of Girl Guides and Girl Scouts",
+      "email": "wagggs@wagggs.org",
+      "telephone": "+44 20 7794 1181",
+      "faxNumber": "+44 20 7431 3764",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.wagggs.org/static/images/logo-full.png",
+        "width": "288",
+        "height": "288"
+      },
+      "url": "https://www.wagggs.org/"
+    },
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Guías y Scouts de Chile",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Avenida República 97",
+        "addressLocality": "Santiago",
+        "addressRegion": "Santiago",
+        "addressCountry": "Chile",
+        "postalCode": "8370040"
+      },
+      "email": "comunicaciones@guiasyscoutschile.cl",
+      "telephone": "(562) 2689 9000",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "http://guiasyscoutsdechile.cl/images/agsch-footer.png",
+        "width": "191",
+        "height": "44"
+      },
+      "url": "http://guiasyscoutsdechile.cl/"
+    },
+  },
+  "inLanguage": {
+    "@type": "Language",
+    "name": "Spanish",
+    "alternateName": "es"
+  },
+  "isFamilyFriendly": "True",
+  "keywords": "scouts, la granja, actividades extraprogramaticas, extracurriculares, guias, naturaleza, aire libre, actividades",
+  "publisher": {
+    "@type": "EducationalOrganization",
+    "name": "{{ site.name }}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "San José de la Estrella 0857",
+      "addressLocality": "La Granja",
+      "addressRegion": "Santiago",
+      "addressCountry": "Chile",
+      "postalCode": "8801000"
+    },
+    "email": "contacto@nuamana.com",
+    "foundingDate": "2005-09-23",
+    "funder": {
+      "@type": "School",
+      "name": "Colegio Nuestra Señora de Guadalupe",
+      "parentOrganization": {
+        "@type": "Corporation",
+        "name": "Corporación Educacional del Arzobispado de Santiago",
+        "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Seminario 90",
+        "addressLocality": "Providencia",
+        "addressRegion": "Santiago",
+        "addressCountry": "CL"
+        },
+        "foundingDate": "1991",
+        "logo": "",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "http://ceas.cl/wp-content/uploads/2017/07/logo-ceas-1.jpg",
+          "width": "114",
+          "height": "105"
+        },
+        "telephone": "(562) 2562 2301",
+        "telephone": "(562) 2696 9102",
+        "url": "http://ceas.cl/"
+      },
+      "logo": {
+        "@type": "ImageObject",
+        "url": "http://ceas.cl/wp-content/uploads/2017/05/nuestra-senora-guadalupe.gif",
+        "width": "113",
+        "height": "140"
+      },
+      "foundingDate": "1996",
+      "email": "colegionsg@ceas.cl",
+      "telephone": "(562) 2541 1023",
+      "telephone": "(562) 2541 9631",
+      "faxNumber": "2 2541 0306",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "San José de la Estrella 0857",
+        "addressLocality": "La Granja",
+        "addressRegion": "Santiago",
+        "addressCountry": "CL",
+        "postalCode": "8801000"
+      },
+      "unnamedSourcesPolicy": "http://ceas.cl/wp-content/uploads/2017/10/Proyecto-Educativo-Final.pdf",
+      "unnamedSourcesPolicy": "http://ceas.cl/wp-content/uploads/2017/08/MCE_NSGuadalupe_BR.pdf",
+      "unnamedSourcesPolicy": "http://ceas.cl/wp-content/uploads/2017/10/REGLAMENTO-DE-EVALUACION-Y-PROMOCION-ESCOLAR-2017.pdf",
+      "unnamedSourcesPolicy": "http://ceas.cl/wp-content/uploads/2017/10/Plan-de-Formaci%C3%B3n-Ciudadana_Ceas_2017.pdf",
+      "url": "http://ceas.cl/colegio-nuestra-senora-de-guadalupe-2/"
+    },
+    "legalName": "Grupo de Guías y Scouts Nua Mana",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.logo | prepend: site.baseurl | prepend: site.url }}",
+      "width": "60",
+      "height": "60"
+    },
+    "makesOffer": {
+      "@type": "OfferCatalog",
+      "name": "Scouts",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOfferd": {
+            "@type": "Service",
+            "name": "Escultismo",
+            "serviceType": "Voluntariado"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOfferd": {
+            "@type": "Service",
+            "name": "Scouts",
+            "serviceType": "Voluntariado"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOfferd": {
+            "@type": "Service",
+            "name": "Guías",
+            "serviceType": "Voluntariado"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOfferd": {
+            "@type": "Service",
+            "name": "Educación para la Vida",
+            "serviceType": "Voluntariado"
+          }
+        }
+      ]
+    },
+    "memberOf": {
+      "@type": "Organization",
+      "name": "Organización Mundial del Movimiento Scout",
+      "email": "worldbureau@scout.org",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.scout.org/sites/all/themes/custom/worldscout/logo.png",
+        "width": "195",
+        "height": "47"
+      },
+      "department": {
+        "@type": "Organization",
+        "name": "Organización Scout Interamericana",
+        "email": "interamerica@scout.org"
+      },
+      "url": "https://www.scout.org/"
+    },
+    "memberOf": {
+      "@type": "Organization",
+      "name": "World Association of Girl Guides and Girl Scouts",
+      "email": "wagggs@wagggs.org",
+      "telephone": "+44 20 7794 1181",
+      "faxNumber": "+44 20 7431 3764",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.wagggs.org/static/images/logo-full.png",
+        "width": "288",
+        "height": "288"
+      },
+      "url": "https://www.wagggs.org/"
+    },
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Guías y Scouts de Chile",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Avenida República 97",
+        "addressLocality": "Santiago",
+        "addressRegion": "Santiago",
+        "addressCountry": "Chile",
+        "postalCode": "8370040"
+      },
+      "email": "comunicaciones@guiasyscoutschile.cl",
+      "telephone": "(562) 2689 9000",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "http://guiasyscoutsdechile.cl/images/agsch-footer.png",
+        "width": "191",
+        "height": "44"
+      },
+      "url": "http://guiasyscoutsdechile.cl/"
+    },
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "{% if page.img %}{{page.img}}{% else %}{{ site.logo | prepend: site.baseurl | prepend: site.url }}{% endif %}",
+    "height": "300",
+    "width": "320"
+  }
+}
