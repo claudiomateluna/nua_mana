@@ -40,8 +40,7 @@
           "width": "114",
           "height": "105"
         },
-        "telephone": "(562) 2562 2301",
-        "telephone": "(562) 2696 9102",
+        "telephone": "(562) 2562 2301 (562) 2696 9102",
         "url": "http://ceas.cl/"
       },
       "logo": {
@@ -52,8 +51,7 @@
       },
       "foundingDate": "1996",
       "email": "colegionsg@ceas.cl",
-      "telephone": "(562) 2541 1023",
-      "telephone": "(562) 2541 9631",
+      "telephone": "(562) 2541 1023 (562) 2541 9631",
       "faxNumber": "2 2541 0306",
       "address": {
         "@type": "PostalAddress",
@@ -116,34 +114,38 @@
     },
     "memberOf": {
       "@type": "Organization",
-      "name": "Organización Mundial del Movimiento Scout",
-      "email": "worldbureau@scout.org",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.scout.org/sites/all/themes/custom/worldscout/logo.png",
-        "width": "195",
-        "height": "47"
-      },
-      "department": {
-        "@type": "Organization",
-        "name": "Organización Scout Interamericana",
-        "email": "interamerica@scout.org"
-      },
-      "url": "https://www.scout.org/"
-    },
-    "memberOf": {
-      "@type": "Organization",
-      "name": "World Association of Girl Guides and Girl Scouts",
-      "email": "wagggs@wagggs.org",
-      "telephone": "+44 20 7794 1181",
-      "faxNumber": "+44 20 7431 3764",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.wagggs.org/static/images/logo-full.png",
-        "width": "288",
-        "height": "288"
-      },
-      "url": "https://www.wagggs.org/"
+      "itemListElement": [
+        {
+          "name": "Organización Mundial del Movimiento Scout",
+          "email": "worldbureau@scout.org",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.scout.org/sites/all/themes/custom/worldscout/logo.png",
+            "width": "195",
+            "height": "47"
+          },
+          "department": {
+            "@type": "Organization",
+            "name": "Organización Scout Interamericana",
+            "email": "interamerica@scout.org"
+          },
+          "url": "https://www.scout.org/"
+        },
+        {
+          "@type": "Organization",
+          "name": "World Association of Girl Guides and Girl Scouts",
+          "email": "wagggs@wagggs.org",
+          "telephone": "+44 20 7794 1181",
+          "faxNumber": "+44 20 7431 3764",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.wagggs.org/static/images/logo-full.png",
+            "width": "288",
+            "height": "288"
+          },
+          "url": "https://www.wagggs.org/"
+        }
+      ]
     },
     "parentOrganization": {
       "@type": "Organization",
@@ -207,8 +209,7 @@
           "width": "114",
           "height": "105"
         },
-        "telephone": "(562) 2562 2301",
-        "telephone": "(562) 2696 9102",
+        "telephone": "(562) 2562 2301 (562) 2696 9102",
         "url": "http://ceas.cl/"
       },
       "logo": {
@@ -219,8 +220,7 @@
       },
       "foundingDate": "1996",
       "email": "colegionsg@ceas.cl",
-      "telephone": "(562) 2541 1023",
-      "telephone": "(562) 2541 9631",
+      "telephone": "(562) 2541 1023 (562) 2541 9631",
       "faxNumber": "2 2541 0306",
       "address": {
         "@type": "PostalAddress",
@@ -231,9 +231,6 @@
         "postalCode": "8801000"
       },
       "unnamedSourcesPolicy": "http://ceas.cl/wp-content/uploads/2017/10/Proyecto-Educativo-Final.pdf",
-      "unnamedSourcesPolicy": "http://ceas.cl/wp-content/uploads/2017/08/MCE_NSGuadalupe_BR.pdf",
-      "unnamedSourcesPolicy": "http://ceas.cl/wp-content/uploads/2017/10/REGLAMENTO-DE-EVALUACION-Y-PROMOCION-ESCOLAR-2017.pdf",
-      "unnamedSourcesPolicy": "http://ceas.cl/wp-content/uploads/2017/10/Plan-de-Formaci%C3%B3n-Ciudadana_Ceas_2017.pdf",
       "url": "http://ceas.cl/colegio-nuestra-senora-de-guadalupe-2/"
     },
     "legalName": "Grupo de Guías y Scouts Nua Mana",
@@ -283,34 +280,38 @@
     },
     "memberOf": {
       "@type": "Organization",
-      "name": "Organización Mundial del Movimiento Scout",
-      "email": "worldbureau@scout.org",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.scout.org/sites/all/themes/custom/worldscout/logo.png",
-        "width": "195",
-        "height": "47"
-      },
-      "department": {
-        "@type": "Organization",
-        "name": "Organización Scout Interamericana",
-        "email": "interamerica@scout.org"
-      },
-      "url": "https://www.scout.org/"
-    },
-    "memberOf": {
-      "@type": "Organization",
-      "name": "World Association of Girl Guides and Girl Scouts",
-      "email": "wagggs@wagggs.org",
-      "telephone": "+44 20 7794 1181",
-      "faxNumber": "+44 20 7431 3764",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.wagggs.org/static/images/logo-full.png",
-        "width": "288",
-        "height": "288"
-      },
-      "url": "https://www.wagggs.org/"
+      "itemListElement": [
+        {
+          "name": "Organización Mundial del Movimiento Scout",
+          "email": "worldbureau@scout.org",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.scout.org/sites/all/themes/custom/worldscout/logo.png",
+            "width": "195",
+            "height": "47"
+          },
+          "department": {
+            "@type": "Organization",
+            "name": "Organización Scout Interamericana",
+            "email": "interamerica@scout.org"
+          },
+          "url": "https://www.scout.org/"
+        },
+        {
+          "@type": "Organization",
+          "name": "World Association of Girl Guides and Girl Scouts",
+          "email": "wagggs@wagggs.org",
+          "telephone": "+44 20 7794 1181",
+          "faxNumber": "+44 20 7431 3764",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.wagggs.org/static/images/logo-full.png",
+            "width": "288",
+            "height": "288"
+          },
+          "url": "https://www.wagggs.org/"
+        }
+      ]
     },
     "parentOrganization": {
       "@type": "Organization",
