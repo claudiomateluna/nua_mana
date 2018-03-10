@@ -175,7 +175,7 @@
   },
   "image": {
     "@type": "ImageObject",
-    "url": "{% if page.img %}{{page.img}}{% else %}{{ site.logo | prepend: site.baseurl | prepend: site.url }}{% endif %}",
+    "url": "{% if page.img %}{{page.img}}{% else %}{{ site.baseurl }}{{ site.logo }}{% endif %}",
     "height": "300",
     "width": "320"
   }
