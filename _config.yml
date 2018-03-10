@@ -14,7 +14,7 @@ description: >
   Guias y Scouts Nua Mana, una nueva aventura, nuestro grupo se encuentra en la comuna de La Granja, 
   Region Metropolitana, Chile. Buscamos el desarrollo de niños y jovenes, mediante el empoderamiento, 
   la ciudadania activa, valores y habilidades para la vida, y una educación para la paz.
-logo: "/assets/images/logo.svg"
+logo: "/assets/images/logo.png"
 brand: "/assets/images/brand.png"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
