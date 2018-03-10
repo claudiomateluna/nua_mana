@@ -229,7 +229,7 @@
     "legalName": "Grupo de Guías y Scouts Nua Mana",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ site.baseurl }}{{ site.logo }}",
+      "url": "http://www.nuamana.com{{ site.logo }}",
       "width": "60",
       "height": "60"
     },
