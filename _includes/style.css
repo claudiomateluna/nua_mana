@@ -243,7 +243,10 @@ footer h4::before {
 .fillll{
 	max-width: 400px;
 }
+.formularios {max-width:100px;}
+.forD {border:1px solid #ccc;border-radius:6px;padding:5px;margin:10px 0;min-height:112px;}
+.forN {font-family:'Inika',arial;font-size:2rem;font-weight:bold;margin:35px 0;float:right;}
+.forA:hover{color:#cb3327;fill:#cb3327;}
 
-
-@media (max-width:40rem){.xs-hide{display:none}.top-1{top:0}.insignia{top:238px}.scoutl{min-height:230px;text-align:right;}.m01{margin:.1rem .1rem}.fillll{max-width:350px;}}
+@media (max-width:40rem){.xs-hide{display:none}.top-1{top:0}.insignia{top:238px}.scoutl{min-height:230px;text-align:right;}.m01{margin:.1rem .1rem}.fillll{max-width:350px;}.formularios{max-width:50px;}.forD{min-height:60px;}.forN{font-size:1rem;margin:10px 0;}}
 @media (min-width:40.06rem) and (max-width:52rem){.sm-hide{display:none}.top-1{top:0;}.scoutl{min-height:230px;text-align:right;}.m01{margin:.1rem .1rem}.fillll{max-width:380px;}}
