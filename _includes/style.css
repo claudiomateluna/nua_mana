@@ -71,11 +71,12 @@ figure {
 	left: -50%;
 }
 .scoutl {
-	min-height:130px;
+	min-height:60px;
 	background: -webkit-linear-gradient(#cb3327, #1d1d1d);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	z-index:3;
+	margin-top: 80px;
 }
 .hhl{
 	border-radius:3px;
