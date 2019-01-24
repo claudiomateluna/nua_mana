@@ -143,15 +143,20 @@ figure {
 .nsg {
 	max-width:41.401006px;
 }
+.nsg_ {width:41.401006px;}
 .agsch {
 	max-width:212.951143px;
+	padding: 0 0 0 5px;
 }
+.agsch_ {width:212.951143px;}
 .omms {
 	max-width:214.947348px;
 }
+.omms_ {width:214.947348px;}
 .wagggs {
 	max-width:172.037567px;
 }
+.wagggs_ {width:172.037567px;}
 .nua_svg {
 	max-width:100px;
 }
@@ -189,17 +194,52 @@ footer h4::before {
 .lobatos{
 	max-width:36.7px;
 }
+.lobatos_{
+	width: 36.7px;
+	filter:grayscale(100%);
+}
+.lobatos_:hover{
+	filter:grayscale(0%);
+}
 .guias{
 	max-width:50.3px;
+}
+.guias_{
+	width: 50.3px;
+	filter:grayscale(100%);
+}
+.guias_:hover{
+	filter:grayscale(0%);
 }
 .scouts{
 	max-width:43.4px;
 }
+.scouts_{
+	width: 43.4px;
+	filter:grayscale(100%);
+}
+.scouts_:hover{
+	filter:grayscale(0%);
+}
 .pioneros{
 	max-width:52.3px;
 }
+.pioneros_{
+	width: 52.3px;
+	filter:grayscale(100%);
+}
+.pioneros_:hover{
+	filter:grayscale(0%);
+}
 .caminantes{
 	max-width:59.6px;
+}
+.caminantes_{
+	width: 59.6px;
+	filter:grayscale(100%);
+}
+.caminantes_:hover{
+	filter:grayscale(0%);
 }
 .logo_unidad{
 	max-width: 300px;
@@ -245,6 +285,7 @@ footer h4::before {
 	max-width: 400px;
 }
 .formularios {max-width:100px;}
+.formularios_ {width:100px;}
 .forD {border:1px solid #ccc;border-radius:6px;padding:5px;margin:10px 0;min-height:112px;}
 .forN {font-family:'Inika',arial;font-size:2rem;font-weight:bold;margin:35px 0;float:right;}
 .forA:hover{color:#cb3327;fill:#cb3327;}
