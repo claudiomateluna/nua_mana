@@ -3,7 +3,7 @@ backend:
   repo: claudiomateluna/nua_mana
 
 media_folder: "assets/images/uploads"
-logo_url: "assets/images/brand.svg"
+logo_url: "/assets/images/brand.svg"
 display_url: https://nuamana.com
 
 collections:
@@ -14,6 +14,6 @@ collections:
         name: "sitio"
         file: "_data/site.yml"
         fields:
-          - label: "Titulo del Sitio"
+          - label: "Titulo"
             name: "titulo"
             widget: "string"
