@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: claudiomateluna/nua_mana
+
+media_folder: "assets/images/uploads"
+logo_url: "assets/images/brand.svg"
+display_url: https://nuamana.com
+
+collections:
+  - name: "configuracion_general"
+    label: "Configuración General"
+    files:
+      - label: "Configuración General"
+        name: "sitio"
+        file: "_data/site.yml"
+        fields:
+          - label: "Titulo del Sitio"
+            name: "titulo"
+            widget: "string"
