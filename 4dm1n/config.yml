@@ -17,3 +17,6 @@ collections:
           - label: "Titulo"
             name: "titulo"
             widget: "string"
+          - label: "Nombre"
+            name: "nombre"
+            widget: "string"
