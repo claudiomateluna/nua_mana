@@ -11,8 +11,8 @@ collections:
     label: "Configuración General"
     files:
       - label: "Configuración General"
-        name: "sitio"
-        file: "/_data/site.yml"
+        name: "site"
+        file: "_data/site.yml"
         fields:
           - label: "Titulo"
             name: "titulo"
