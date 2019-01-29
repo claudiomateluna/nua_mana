@@ -1,22 +1,18 @@
 backend:
   name: github
   repo: claudiomateluna/nua_mana
+  branch: gh-pages
 
-media_folder: "assets/images/uploads"
-logo_url: "/assets/images/brand.svg"
-display_url: https://nuamana.com
+media_folder: 'assets/images/uploads'
+logo_url: '/assets/images/brand.svg'
 
 collections:
-  - name: "configuracion_general"
-    label: "Configuración General"
+  - name: 'configuracion_general'
+    label: 'Configuración General'
+    description: 'Configuración general del sitio web, como su nombre, dirección fisica, Redes Sociales, etc.'
     files:
-      - label: "Configuración General"
-        name: "site"
-        file: "_data/site.yml"
+      - name: 'site'
+        label: 'Site'
+        file: '_data/site.yml'
         fields:
-          - label: "Titulo"
-            name: "titulo"
-            widget: "string"
-          - label: "Nombre"
-            name: "nombre"
-            widget: "string"
+          - { label: 'Titulo', name: 'titulo', widget: 'string', hint: 'Titulo del Sitio Web' }
