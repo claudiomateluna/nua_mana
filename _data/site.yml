@@ -16,7 +16,7 @@ resumen: 'Guias y Scouts Nua Mana - una nueva aventura - nuestro grupo se encuen
 tel: '+56966896001'
 tel_display: '+56 ( 9 ) 6689 6001'
 encabezado_rongorongo: 'Guias y Scouts Nua Mana Una Nueva Aventura'
-frase_fuerza: "SCOUTS, EDUCACIÓN PARA LA VIDA"
+frase_fuerza: 'SCOUTS, EDUCACIÓN PARA LA VIDA'
 mision: >
   Nuestra misión es contribuir a la educación de jóvenes para que participen en la construcción de un mundo mejor, donde las personas se desarrollen plenamente y jueguen un papel constructivo en la sociedad.
   Mediante un sistema de valores basado en principios espirituales, sociales y personales, que se expresan en la Ley y la Promesa.
@@ -27,7 +27,7 @@ encuentranos:
   comuna_de: 'La Granja'
   nos_encontraras_todos_los: 'sábados desde las 15.00 hrs'
 
-redes sociales:
+redes_sociales:
   twitter: 'https://twitter.com/gruponuamana'
   facebook: 'https://www.facebook.com/gruponuamana/'
   google_plus: 'https://plus.google.com/+nuamana'
