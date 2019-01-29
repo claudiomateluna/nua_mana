@@ -55,7 +55,10 @@
 			<div class="f_ubicacion pt4 mt1">
 				<h4>Ubicación</h4>
 				<address>
-					{{site.data.site.direccion}}
+					{{site.data.site.address.institution}}<br>
+					{{site.data.site.address.street}}<br>
+					{{site.data.site.address.commune}}, {{site.data.site.address.city}}, {{site.data.site.address.country}}<br>
+					C.P.: {{site.data.site.address.zip}}<br>
 				</address>
 				<p>
 					<a href="tel: {{site.data.site.tel}}" class="text-decoration-none">tel: {{site.data.site.tel_display}}</a><br>
