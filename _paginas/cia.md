@@ -1,6 +1,6 @@
 ---
 layout: unidades
-title: Compañia Põ Nui Vaicava
+title: Compañia Põ Nui Vaikava
 resumen: La curiosidad aquí da paso a la búsqueda de nuevas aventuras para vivir tanto de manera individual como en el grupo de amigas.
 svg: assets/images/guias.svg
 categories: 
