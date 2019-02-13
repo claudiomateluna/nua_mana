@@ -33,4 +33,13 @@ kramdown:
 collections:
   paginas:
     output: true
-    permalink: /:categories/:title
+    permalink: /:title
+  acerca-de:
+    output: true
+    permalink: /:collection/:title
+  lo-que-hacemos:
+    output: true
+    permalink: /:collection/:title
+  unidades:
+    output: true
+    permalink: /:collection/:title

@@ -2,9 +2,15 @@
 layout: unidades
 title: Avanzada Rapa Hango
 resumen: los Pioneros elaborarán proyectos que los vinculen a su entorno comunitario, con actividades de servicio y recreativas.
-svg: assets/images/pioneros.svg
+img: assets/images/uploads/01avanzada.svg
+svg: assets/images/uploads/02pioneros.svg
+bandera: assets/images/uploads/Bandera_avanzada.svg
+instagram1: BneqSctHzSq
+instagram2: BlbalP-nIon
 categories: 
   - unidades
+amp_components: 
+  - <script async custom-element="amp-instagram" src="https://cdn.ampproject.org/v0/amp-instagram-0.1.js"></script>
 ---
 Una Vez que las Guías y los Scouts egresan de sus Unidades se encuentran en la Avanzada de Pioneros, donde junto a sus compañeros de 15 a 17 años, en equipos más reducidos que las patrullas, experimentarán los cambios de la adolescencia proyectándose a sí mismo como las personas que quieren ser.
 

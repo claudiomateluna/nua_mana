@@ -1,0 +1,65 @@
+---
+layout: default
+---
+<main class="max-width-6 mx-auto" role="main">
+	<article class="clearfix" role="article">
+		<div class="col sm-col-12 md-col-9 contenido my2">
+			<h1 class="c_titulo center">{{page.title}}</h1>
+			{% unless page.cita_img == nil %}
+			<div class="right fillll"><amp-img width="329" height="273" layout="fixed" alt="{{page.title}}" src="{{page.cita_img}}"></amp-img></div>
+			{% endunless %}
+			{% unless page.cita == nil %}
+			<blockquote>
+				<p>" {{page.cita}} "</p>
+				<p>{{page.cita_autor}}</p>
+			</blockquote>
+			<br>
+			{% endunless %}
+			{% unless page.video == nil %}
+			<amp-youtube data-videoid="{{page.video}}" layout="responsive" width="600" height="270"></amp-youtube>
+			{% endunless %}
+			{{ content }}
+		</div>
+		<aside class="col sm-col-12 md-col-3 pt2 pl1">
+			{% if page.img == nil %}
+			<figure class="card-img-top">
+				<amp-img src="/assets/images/nuamana.svg"
+					width="320"
+					height="231"
+					layout="responsive"
+					alt="{{page.title}}">
+					<amp-img placeholder
+    					src="/assets/images/nuamana.svg"
+    					layout="fill">
+    				</amp-img>
+				</amp-img>
+				<figcaption class="hide">{{page.title}}</figcaption>
+			</figure>
+			{% endif %}
+			{% unless page.img == nil %}
+			<figure class="card-img-top">
+				<amp-img src="{{site.baseurl}}/{{page.img}}"
+					width="320"
+					height="300"
+					layout="responsive"
+					alt="{{page.title}}">
+					<amp-img placeholder
+    					src="/assets/images/NuaMana.png"
+    					layout="fill">
+    				</amp-img>
+				</amp-img>
+				<figcaption class="hide">{{page.title}}</figcaption>
+			</figure>
+			{% endunless %}
+			<amp-facebook-page height="435" width="340"
+				layout="fixed"
+				data-hide-cover="true"
+				data-locale="es"
+				data-small-header="true"
+				data-show-facepile="false"
+				data-tabs="timeline, events, messages"
+				data-href="https://www.facebook.com/gruponuamana/">
+			</amp-facebook-page>
+		</aside>
+	</article>
+</main>
