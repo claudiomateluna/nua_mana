@@ -3,7 +3,7 @@ layout: hacemos
 title: Programa y Actividades
 resumen: El método scout se expresa finalmente en un programa de actividades con el fin de satisfacer la necesidad de un desarrollo de los niños y jovenes
 img: assets/images/uploads/h2_.jpg
-instragram: BqBL-QLnNWp
+instagram: BqBL-QLnNWp
 categories: 
   - lo-que-hacemos
 amp_components: 

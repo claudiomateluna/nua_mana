@@ -5,8 +5,8 @@ resumen: los Pioneros elaborarán proyectos que los vinculen a su entorno comuni
 img: assets/images/uploads/01avanzada.svg
 svg: assets/images/uploads/02pioneros.svg
 bandera: assets/images/uploads/Bandera_avanzada.svg
-instagram1: BneqSctHzSq
-instagram2: BlbalP-nIon
+instagram1: Bq-ma8DhbaY
+instagram2: BopPr3-nVX6
 categories: 
   - unidades
 amp_components: 

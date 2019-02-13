@@ -3,7 +3,7 @@ layout: hacemos
 title: Ley y Promesa
 resumen: Para lograr nuestros objetivos recurrimos al método scout, que se define como un sistema de autoeducación progresiva
 img: 
-instragram: BkT3TY1n71E
+instagram: BkT3TY1n71E
 categories: 
   - lo-que-hacemos
 amp_components: 

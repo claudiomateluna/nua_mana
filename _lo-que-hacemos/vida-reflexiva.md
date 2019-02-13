@@ -3,7 +3,7 @@ layout: hacemos
 title: Vida Reflexiva
 resumen: tu propia experiencia de vida te provee de conocimiento, que al momento de compartirlo con tu unidad se convierte en un aprendizaje para quienes te rodean
 img: assets/images/uploads/h6_.jpg
-instragram: 
+instagram: 
 categories: 
   - lo-que-hacemos
 amp_components: 

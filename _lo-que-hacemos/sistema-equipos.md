@@ -3,7 +3,7 @@ layout: hacemos
 title: Sistema de Equipos
 resumen: El sistema de equipos es la característica esencial que diferencia a la educación scout de la que ofrecen todas las demás organizaciones similares 
 img: assets/images/uploads/h1_.jpg
-instragram: Bo9el9_HBI6
+instagram: Bo9el9_HBI6
 categories: 
   - lo-que-hacemos
 amp_components: 

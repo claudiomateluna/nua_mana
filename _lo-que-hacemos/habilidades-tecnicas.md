@@ -3,7 +3,7 @@ layout: hacemos
 title: Habilidades y Técnicas
 resumen: El método scout se expresa finalmente en un programa de actividades con el fin de satisfacer la necesidad de un desarrollo de los niños y jovenes
 img: assets/images/uploads/h3_.jpg
-instragram: BmrSWQHnZPM
+instagram: BmrSWQHnZPM
 categories: 
   - lo-que-hacemos
 amp_components: 

@@ -3,7 +3,7 @@ layout: hacemos
 title: Vida al Aire Libre
 resumen: tu propia experiencia de vida te provee de conocimiento, que al momento de compartirlo con tu unidad se convierte en un aprendizaje para quienes te rodean
 img: assets/images/uploads/h5_.jpg
-instragram: BjOQN6-nh4h
+instagram: BjOQN6-nh4h
 categories: 
   - lo-que-hacemos
 amp_components: 

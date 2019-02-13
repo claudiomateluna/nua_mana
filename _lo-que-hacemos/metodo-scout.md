@@ -3,7 +3,7 @@ layout: hacemos
 title: El Método Scout
 resumen: Para lograr nuestros objetivos recurrimos al método scout, que se define como un sistema de autoeducación progresiva
 img: 
-instragram: Bm19J_oHijT
+instagram: Bm19J_oHijT
 categories: 
   - lo-que-hacemos
 amp_components: 
