@@ -1,5 +1,5 @@
 ---
-layout: unidades
+layout: avanzada
 title: Avanzada Rapa Hango
 resumen: los Pioneros elaborarán proyectos que los vinculen a su entorno comunitario, con actividades de servicio y recreativas.
 img: assets/images/uploads/01avanzada.svg

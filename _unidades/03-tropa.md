@@ -1,5 +1,5 @@
 ---
-layout: unidades
+layout: tropa
 title: Tropa A'ata
 resumen: La curiosidad aquí da paso a la búsqueda de nuevas aventuras para vivir tanto de manera individual como en el grupo de amigos.
 img: assets/images/uploads/01tropa.svg

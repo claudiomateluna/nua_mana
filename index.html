@@ -8,6 +8,44 @@ amp_components:
 <div class="flex justify-center flex-wrap content-end inika scoutl">
   <h1>{{ site.data.site.frase_fuerza }}</h1>
 </div>
+
+{% unless site.posts == nil %}
+<div class="max-width-2 mx-auto m1">
+  {% for post in site.posts limit:1 %}
+    <a href="{{ post.url }}" class="text-decoration-none">
+      <div class="flex flex-wrap items-center p1 border_posts rounded mb1 overflow-hidden">
+        <div class="col-3 pr1">
+          {% if post.img == nil %}
+            <figure class="fit rounded">
+              <amp-img src="/assets/images/nuamana.svg"
+                width="320"
+                height="231"
+                layout="responsive"
+                alt="{{post.title}}">
+                <amp-img placeholder
+                  src="/assets/images/nuamana.svg"
+                  layout="fill">
+                </amp-img>
+              </amp-img>
+              <figcaption class="hide">{{post.title}}</figcaption>
+            </figure>
+          {% endif %}
+          {% unless post.img == nil %}
+          <amp-img src="{{ post.img }}" width="300" height="300" layout="responsive" alt="{{post.title}}" class="fit rounded"></amp-img>
+          {% endunless %}
+        </div>
+        <div class="col-9">
+          <h4>
+            {{ post.title }}
+          </h4>
+          <p class="">{{ post.resumen | truncate: 140 }}</p>
+        </div>
+      </div>
+    </a>
+  {% endfor %}
+</div>
+{% endunless %}
+
 <div class="flex flex-wrap justify-center px2 clearfix">
   <a href="{{ site.data.nosotros.url_1 }}" class="imgn">
     <div class="card_title center">

@@ -36,7 +36,45 @@ layout: default
 				<figcaption class="hide">{{page.title}}</figcaption>
 			</figure>
 			{% endunless %}
-			
+
+{% unless site.categories.cia == nil %}
+			<div class="max-width-4 mx-auto m1">
+			  {% for post in site.categories.cia %}
+			    <a href="{{ post.url }}" class="text-decoration-none">
+			      <div class="flex flex-wrap items-center p1 border_postsU rounded mb1 overflow-hidden">
+			        <div class="col-3 pr1">
+			          {% if post.img == nil %}
+			            <figure class="fit rounded">
+			              <amp-img src="/assets/images/nuamana.svg"
+			                width="320"
+			                height="231"
+			                layout="responsive"
+			                alt="{{post.title}}">
+			                <amp-img placeholder
+			                  src="/assets/images/nuamana.svg"
+			                  layout="fill">
+			                </amp-img>
+			              </amp-img>
+			              <figcaption class="hide">{{post.title}}</figcaption>
+			            </figure>
+			          {% endif %}
+			          {% unless post.img == nil %}
+			          <amp-img src="{{ post.img }}" width="300" height="300" layout="responsive" alt="{{post.title}}" class="fit rounded"></amp-img>
+			          {% endunless %}
+			        </div>
+			        <div class="col-9">
+			          <h4>
+			            {{ post.title }}
+			          </h4>
+			          <div class="fecha">{{post.date | date: "%d / %m / %Y"}}</div>
+			          <p class="post_content">{{ post.resumen | truncate: 140 }}</p>
+			        </div>
+			      </div>
+			    </a>
+			  {% endfor %}
+			</div>
+{% endunless %}
+
 			<div class="contenidos">
 				{{ content }}
 			</div>

@@ -271,7 +271,7 @@ footer h4::before {
 	border:1px solid #CCC;
 	padding:0.5rem;
 }
-.contenido p{
+.contenidos p{
 	padding:1rem;
 	line-height: 1.8;
 }
@@ -291,6 +291,12 @@ footer h4::before {
 .forD {border:1px solid #ccc;border-radius:6px;padding:5px;margin:10px 0;min-height:112px;}
 .forN {font-family:'Inika',arial;font-size:2rem;font-weight:bold;margin:35px 0;float:right;}
 .forA:hover{color:#cb3327;fill:#cb3327;}
+
+/*POSTS*/
+.border_posts {border-radius: 6px; border: 1px solid #C7C7C7; height: 132px;}
+.border_postsU {border-radius: 6px; border: 1px solid #C7C7C7; height: 166px;}
+.post_content {padding: 0; line-height: 1.6}
+.fecha {position: relative;top: 0;right: 0;color: #2980b9}
 
 /*BINGO Clases*/
 .st0{fill:#8D191B;} .st1{fill:#010101;} .st2{fill:#B11F24;} .st3{fill:#EF3936;} .st4{stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;} .st5{stroke:#FFDE17;} .st6{fill:#8D191B;stroke:#FFDE17;stroke-miterlimit:10;} .st7{fill:#659C41;} .st8{fill:#181717;} .st9{fill:#34833F;} .st10{fill:#A75125;} .st11{opacity:0.5;fill:#7D301B;enable-background:new ;} .st12{fill:#ECE2BE;} .st13{fill:#E9C389;} .st14{fill:#926243;} .st15{fill:#B2A359;} .st16{fill:#F4CEA6;} .st17{fill:#814C22;} .st18{fill:#291C0F;} .st19{fill:#C5C5A6;} .st20{fill:#92947F;} .st21{fill:#C85428;} .st22{fill:#E87F86;} .st23{fill:#E15474;} .st24{fill:#592D81;} .st25{fill:#DFDCC1;} .st26{fill:#ADACAC;} .st27{fill:#3A2D1D;} .st28{opacity:0.5;fill:#010101;enable-background:new ;} .st29{fill:url(#SVGID_1_);} .st30{fill:#FFFFFF;} .st31{fill:#B21F27;} .st32{fill:#B31F27;} .st33{fill:url(#SVGID_2_);} .st34{fill:#E3E2DB;} .st35{fill:#E2E1D9;} .st36{opacity:0.3;fill:#FFFFFF;enable-background:new ;} .st37{fill:url(#SVGID_3_);} .st38{fill:#E1E0D7;} .st39{fill:url(#SVGID_4_);} .st40{fill:url(#SVGID_5_);} .st41{fill:url(#SVGID_6_);} .st42{fill:url(#SVGID_7_);} .st43{fill:url(#SVGID_8_);} .st44{fill:url(#SVGID_9_);} .st45{fill:url(#SVGID_10_);} .st46{fill:url(#SVGID_11_);} .st47{fill:url(#SVGID_12_);} .st48{fill:url(#SVGID_13_);} .st49{fill:#141D1D;} .st50{fill:#253233;} .st51{fill:#2AA8BC;} .st52{fill:#907146;} .st53{fill:#E478AC;} .st54{fill:#4B4B4A;} .st55{fill:#3B8591;} .st56{fill:#1A1A19;} .st57{fill:#C8C7C7;}

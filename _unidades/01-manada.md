@@ -1,5 +1,5 @@
 ---
-layout: unidades
+layout: manada
 title: Manada Ahí Niho Vænga
 resumen: Bajo el lema de ser "Siempre Mejor" los Lobatos, por medio de juegos que desarrollan su intelecto y habilidades físicas
 img: assets/images/uploads/01manada.svg

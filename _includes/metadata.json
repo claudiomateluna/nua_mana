@@ -12,37 +12,17 @@
     "name": "{{ site.name }}",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "San José de la Estrella 0857",
-      "addressLocality": "La Granja",
-      "addressRegion": "Santiago",
-      "addressCountry": "Chile",
-      "postalCode": "8801000"
+      "streetAddress": "{{site.data.site.address.street}}",
+      "addressLocality": "{{site.data.site.address.commune}}",
+      "addressRegion": "{{site.data.site.address.city}}",
+      "addressCountry": "{{site.data.site.address.country}}",
+      "postalCode": "{{site.data.site.address.zip}}"
     },
-    "email": "contacto@nuamana.com",
+    "email": "{{site.data.site.email}}",
     "foundingDate": "2005-09-23",
     "funder": {
       "@type": "School",
-      "name": "Colegio Nuestra Señora de Guadalupe",
-      "parentOrganization": {
-        "@type": "Corporation",
-        "name": "Corporación Educacional del Arzobispado de Santiago",
-        "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Seminario 90",
-        "addressLocality": "Providencia",
-        "addressRegion": "Santiago",
-        "addressCountry": "CL"
-        },
-        "foundingDate": "1991",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "http://ceas.cl/wp-content/uploads/2017/07/logo-ceas-1.jpg",
-          "width": "114",
-          "height": "105"
-        },
-        "telephone": "(562) 2562 2301 (562) 2696 9102",
-        "url": "http://ceas.cl/"
-      },
+      "name": "{{site.data.site.address.institution}}",
       "logo": {
         "@type": "ImageObject",
         "url": "http://ceas.cl/wp-content/uploads/2017/05/nuestra-senora-guadalupe.gif",
@@ -55,11 +35,11 @@
       "faxNumber": "2 2541 0306",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "San José de la Estrella 0857",
-        "addressLocality": "La Granja",
-        "addressRegion": "Santiago",
+        "streetAddress": "{{site.data.site.address.street}}",
+        "addressLocality": "{{site.data.site.address.commune}}",
+        "addressRegion": "{{site.data.site.address.city}}",
         "addressCountry": "CL",
-        "postalCode": "8801000"
+        "postalCode": "{{site.data.site.address.zip}}"
       },
       "unnamedSourcesPolicy": "http://ceas.cl/wp-content/uploads/2017/10/Proyecto-Educativo-Final.pdf",
       "url": "http://ceas.cl/colegio-nuestra-senora-de-guadalupe-2/"
@@ -174,37 +154,17 @@
     "name": "{{ site.name }}",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "San José de la Estrella 0857",
-      "addressLocality": "La Granja",
-      "addressRegion": "Santiago",
-      "addressCountry": "Chile",
-      "postalCode": "8801000"
+      "streetAddress": "{{site.data.site.address.street}}",
+      "addressLocality": "{{site.data.site.address.commune}}",
+      "addressRegion": "{{site.data.site.address.city}}",
+      "addressCountry": "{{site.data.site.address.country}}",
+      "postalCode": "{{site.data.site.address.zip}}"
     },
     "email": "contacto@nuamana.com",
     "foundingDate": "2005-09-23",
     "funder": {
       "@type": "School",
       "name": "Colegio Nuestra Señora de Guadalupe",
-      "parentOrganization": {
-        "@type": "Corporation",
-        "name": "Corporación Educacional del Arzobispado de Santiago",
-        "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Seminario 90",
-        "addressLocality": "Providencia",
-        "addressRegion": "Santiago",
-        "addressCountry": "CL"
-        },
-        "foundingDate": "1991",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "http://ceas.cl/wp-content/uploads/2017/07/logo-ceas-1.jpg",
-          "width": "114",
-          "height": "105"
-        },
-        "telephone": "(562) 2562 2301 (562) 2696 9102",
-        "url": "http://ceas.cl/"
-      },
       "logo": {
         "@type": "ImageObject",
         "url": "http://ceas.cl/wp-content/uploads/2017/05/nuestra-senora-guadalupe.gif",
@@ -217,11 +177,11 @@
       "faxNumber": "2 2541 0306",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "San José de la Estrella 0857",
-        "addressLocality": "La Granja",
-        "addressRegion": "Santiago",
+        "streetAddress": "{{site.data.site.address.street}}",
+        "addressLocality": "{{site.data.site.address.commune}}",
+        "addressRegion": "{{site.data.site.address.city}}",
         "addressCountry": "CL",
-        "postalCode": "8801000"
+        "postalCode": "{{site.data.site.address.zip}}"
       },
       "unnamedSourcesPolicy": "http://ceas.cl/wp-content/uploads/2017/10/Proyecto-Educativo-Final.pdf",
       "url": "http://ceas.cl/colegio-nuestra-senora-de-guadalupe-2/"
@@ -229,7 +189,7 @@
     "legalName": "Grupo de Guías y Scouts Nua Mana",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://www.nuamana.com{{ site.logo }}",
+      "url": "http://www.nuamana.com/{{ site.logo }}",
       "width": "60",
       "height": "60"
     },

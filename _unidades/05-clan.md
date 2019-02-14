@@ -1,5 +1,5 @@
 ---
-layout: unidades
+layout: clan
 title: Clan Ahu Akivi
 resumen: los Caminantes asumen el compromiso de enfrentar la vida siendo ellos mismos. Asumen también el proyecto de vida que han forjado, ser los constructores de un mundo mejor
 img: assets/images/uploads/01clan.svg

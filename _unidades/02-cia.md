@@ -1,5 +1,5 @@
 ---
-layout: unidades
+layout: cia
 title: Compañia Põ Nui Vaikava
 resumen: La curiosidad aquí da paso a la búsqueda de nuevas aventuras para vivir tanto de manera individual como en el grupo de amigas.
 img: assets/images/uploads/01cia.svg
