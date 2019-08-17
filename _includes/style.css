@@ -72,6 +72,9 @@ figure {
 .Tapati_formularios_{
 	width: 50px;
 }
+.Tapati_formularios_1{
+	width: 25px;
+}
 .tapati_forD {
 	border: 1px solid #2A0A2B;
     border-radius: 6px;
@@ -79,11 +82,25 @@ figure {
     margin: 10px 0;
     min-height: 62px;
 }
+.tapati_forD1 {
+	border: 1px solid #2A0A2B;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 10px 0;
+    min-height: 42px;
+}
 .tapati_forN {
     font-family: 'Inika',arial;
     font-size: 2rem;
     font-weight: bold;
     margin: 10px 0;
+    float: right;
+}
+.tapati_forN1 {
+    font-family: 'Inika',arial;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 5px 0;
     float: right;
 }
 .tapati_detalles p{
