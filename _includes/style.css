@@ -46,6 +46,50 @@ figure {
 	color:#ffc40d;
 	z-index:999;
 }
+.tapati {
+	background: #3a0e3b;
+	color: #fff;
+	z-index: 999;
+}
+.tapatiBody {
+	background: #B7A7B7;
+}
+.TapatiContenido {
+	background: #EDE9ED;
+    border-radius: 4px;
+    border: 1px solid #2A0A2B;
+    padding: 0.5rem;
+    color: #390D3B;
+}
+.tapati-ampstart-sidebar{
+	background: #3a0e3b;
+	color: #fff;
+	width: 300px;
+}
+.Tapati_formularios{
+	max-width: 50px;
+}
+.Tapati_formularios_{
+	width: 50px;
+}
+.tapati_forD {
+	border: 1px solid #2A0A2B;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 10px 0;
+    min-height: 62px;
+}
+.tapati_forN {
+    font-family: 'Inika',arial;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0;
+    float: right;
+}
+.tapati_detalles p{
+	padding: 10px;
+	text-align: justify;
+}
 .top-1 {
 	top:32px;
 }

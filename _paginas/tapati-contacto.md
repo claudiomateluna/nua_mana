@@ -1,0 +1,26 @@
+---
+layout: tapati
+title: Contactanos
+resumen: puedes contactarnos por instagram o por correo electronico seguro responderemos a tus consultas
+categories: 
+  - contacto
+---
+<p>
+	Contacto de comunicaciones del evento:<br>
+	Claudio Mateluna González<br>
+	<a href="mailto:claudiomateluna@hotmail.com" target="_blank">claudiomateluna@hotmail.com</a><br>
+	Celular: <a href="tel:+56966896001">+56 9 6689 6001</a><br><br>
+	Sitio web: <a href="www.nuamana.com/tapati">www.nuamana.com/tapati</a><br><br>
+	Redes sociales Tapati Guía y Scout:<br>
+	Instagram: <a href="https://www.instagram.com/tapati_scout/">@tapati_scout</a><br><br>
+	Hashtag usados: #tapatiscout<br><br>
+</p>
+<p>
+	<b>Datos de Transferencia</b><br><br>
+	<b>Banco:</b> Estado<br>
+	<b>Tipo de Cuenta:</b> RUT (Cuenta Vista)<br>
+	<b>Número de Cuenta:</b> 15356295<br>
+	<b>Nombre:</b> Claudio Mateluna González<br>
+	<b>R.U.T.:</b> 15.356.295-4<br>
+	<b>Email:</b> tapati@nuamana.com<br>
+</p>

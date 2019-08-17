@@ -1,0 +1,159 @@
+---
+layout: tapati
+title: Formularios
+resumen: detalles del Tapati
+formularios:
+  - nombre: 'Sistema de competencia y Premios'
+    url: '#sistema'
+    imagen: '/assets/images/florLissvg.svg'
+  - nombre: 'Lugar, Horarios y Fechas'
+    url: '#lugar'
+    imagen: '/assets/images/florLissvg.svg'
+  - nombre: 'Costo e Inscripciones'
+    url: '#costo'
+    imagen: '/assets/images/florLissvg.svg'
+  - nombre: 'Actividades'
+    url: '#actividades'
+    imagen: '/assets/images/florLissvg.svg'
+  - nombre: 'Sistema de operación'
+    url: '#operacion'
+    imagen: '/assets/images/florLissvg.svg'
+  - nombre: 'Sistema de Evaluación y Puntaje'
+    url: '#puntaje'
+    imagen: '/assets/images/florLissvg.svg'
+  - nombre: 'Colaboración y Trabajo de Dirigentes y Guiadoras'
+    url: '#colaboracion'
+    imagen: '/assets/images/florLissvg.svg'
+  - nombre: 'Contacto'
+    url: '#contacto'
+    imagen: '/assets/images/florLissvg.svg'
+  - nombre: 'Cronograma'
+    url: '#cronograma'
+    imagen: '/assets/images/florLissvg.svg'
+categories:
+  - tapati
+---
+<br>
+<br>
+<div class="tapati_detalles">
+<p>Tapati es una fiesta tradicional celebrada en Rapa Nui que se realiza durante los 10 primeros días de febrero desde 1968.</p>
+
+<p>En ella se realizan varias actividades que celebran la cultura Rapa Nui, dichas actividades involucran elementos como canto tradicional, competencias deportivas y un desfile con ropas tradicionales. En su fase final el Tapati Rapa Nui (Semana Rapa Nui) y en base a las diferentes competencias efectuadas elige un rey y una reina del Tapati.</p>
+
+<p>El Tapati Guía y Scout por su parte adaptara las competencias efectuadas en la isla para que puedan ser llevadas a cabo en competencias por equipos de acuerdo a cada unidad y adaptadas a los diferentes rangos etarios que componen las unidades de los grupos, en detalle, Bandadas(niñas entre 7 y 11 años), Manada (niñas y niños entre 7 y 11 años), Compañía (niñas y jóvenes entre 11 y 15 años), Tropa (niños y jóvenes entre 11 y 15 años), Avanzada (jóvenes entre 15 y 17 años), Clan (jóvenes entre 17 y 21 años).</p>
+
+<p>El Tapati Guía y Scout es una actividad abierta a todos los grupos scouts, guías o guías y scouts, no importando su filiación con una u otra institución scout de nivel nacional, o si fuesen independientes, pero si es organizado por grupos que pertenecen a la asociación de guías y scouts de Chile y por lo tanto utiliza su metodología de trabajo en la base de la actividad, siendo de vital importancia el compromiso con los valores entregados en la ley y promesa entregados por el fundador del movimiento Scout. De igual manera la invitación a participar es para todos los grupos, unidades o equipos que quieran vivir la competencia dentro del marco de la cultura Rapa Nui, y hacemos una especial invitación a todos los grupos, unidades y equipos que utilicen la misma dentro de su hilo conductor, sin embargo, No es una actividad excluyente sólo para los mismos, por lo que la invitación se extiende a todas las guías y los scouts.</p>
+</div>
+{% for item in page.formularios %}
+<a href="{{item.url}}" target="_blank" class="forA">
+<div class="tapati_forD">
+	<div class="Tapati_formularios left">
+		<div class="Tapati_formularios_">
+			<amp-img src="{{item.imagen}}"
+				width="24"
+				height="24"
+				layout="responsive"
+				alt="{{page.title}}">
+				<amp-img placeholder
+					src="/assets/images/NuaMana.svg"
+					layout="fill">
+				</amp-img>
+			</amp-img>
+		</div>
+	</div>
+	<div class="tapati_forN">
+		{{item.nombre}}
+	</div>
+</div>
+</a>
+{% endfor %}
+<div class="tapati_detalles">
+<div id="sistema">
+	<h3>Sistema de competencia y Premios</h3>
+	<p>El Tapati Guía y Scout es una actividad netamente de competencia entre equipos, siendo estos los equipos permanentes de cada unidad, o en los casos de las unidades menores los equipos que corresponden de acuerdo a la estructura que necesite su programa en el ciclo en curso al momento de la actividad.</p>
+	<p>Las Bandadas competirán de esta manera en colonias donde se considera de acuerdo al método de la unidad que el número de niñas para una colonia es de seis, por lo tanto, si bien no es necesario que todas las colonias se conformen por seis niñas si se considerara este número para cada competición, en este sentido las colonias que no tengan seis integrantes deberán repetirse en las actividades hasta completar el número de participantes considerado. Esto se repetirá en cada una de las unidades, las manadas con sus seisenas también consideraran 6 integrantes porseisena, las tropas y compañías con sus patrullas consideraran equipos de 8 participantes, así como las avanzadas con sus comunidades consideraran equipos de 6 participantes, al igual que los equipos de Clan que consideraran el mismo número de 6 participantes por equipo.</p>
+	<p>La competencia con los equipos de los otros grupos según su propio rango etario, es decir, las patrullas de tropa competirán sólo con otras patrullas de tropa, las manadas mixtas o no competirán sólo con otras seisenas de manada, y así sucesivamente las comunidades competirán sólo con otras de avanzada, los equipos de clan sólo competirán con otros caminantes, etc.</p>
+	<p>Al finalizar el Tapati el equipo que gano la mayoría de las competencias dentro de su rango etario recibirá un premio simbolizando su victoria, el premio será un “Ao” (Remo ceremonial que representa el prestigio y el poder) para cada equipo que gane en su rango etario. Este Ao será de mayor tamaño a la media de los Ao tradicionales con el fin que el Equipo ganador pueda utilizarlo de forma regular en formaciones, ceremonias y actividades como si fuese un tótem más.</p>
+</div>
+<div id="lugar">
+	<h3>Lugar, Horarios y Fechas</h3>
+	<p>La actividad se efectuará en el Parque André Jarlán, ubicado en la comuna de Pedro Aguirre Cerda, cercano al metro del mismo nombre teniendo también locomoción local y troncal que pasa cerca del mismo parque, el horario será entre 10.45 y 17.00 hrs el sábado 16 de noviembre la fecha fue escogida en base a las actividades y a la fecha en que se efectuó el Tapati Guía y Scout en 2018.</p>
+</div>
+<div id="costo">
+	<h3>Costo e Inscripciones</h3>
+	<p>El costo de la actividad será de $2000.- por participante lo que incluirá la insignia del evento y ayuda a cubrir el costo de los materiales para las actividades.</p>
+	<p>Las inscripciones se encuentran abiertas, para confirmar su participación el responsable de unidad deberá inscribir a cada uno de los equipos de su unidad de forma individual, indicando el número de participantes que tiene el equipo y los datos que se indican a continuación.</p>
+	<p>Nombre del responsable del equipo (Adulto), número de contacto del responsable (Adulto) (El número será incorporado en el grupo de whatsapp del evento), email del responsable del equipo (adulto), Nombre del equipo (Seisena, Colonia, Patrulla, Comunidad o Equipo), Rama a la que pertenece el equipo (Lobatos, Golondrinas, Guías, Scouts, Pioneros, Caminantes), Unidad (Nombre de la unidad, Ejemplo: Tropa Rapa Nui), Grupo (Nombre del Grupo Scout o Guía y Scout al que pertenece el equipo), Distrito (Nombre del distrito al que pertenece el grupo), Zona (Nombre de la zona en la que se encuentra el grupo)</p>
+	<p>Estos datos deben ser incorporados en el siguiente formulario en línea <a href="https://forms.gle/xCK8EU5LbQSHQxxw7" target="_blank">https://forms.gle/xCK8EU5LbQSHQxxw7</a> junto con ello el comprobante de transferencia de dinero debe ser enviado al correo tapati@nuamana.com los pagos deben ser efectuados mediante transferencia electrónica a la siguiente cuenta.</p>
+	<p>
+		<b>Banco:</b> Estado<br>
+		<b>Tipo de Cuenta:</b> RUT (Cuenta Vista)<br>
+		<b>Número de Cuenta:</b> 15356295<br>
+		<b>Nombre:</b> Claudio Mateluna González<br>
+		<b>R.U.T.:</b> 15.356.295-4<br>
+		<b>Email:</b> tapati@nuamana.com<br>
+	</p>
+</div>
+<div id="actividades">
+	<h3>Actividades</h3>
+	<p>De acuerdo a la experiencia del Tapati Guía y Scout 2018 y también con la expectación de innovar, se seleccionaron sólo 3 actividades que serán repetidas para esta versión, ninguna de las actividades a continuación debe ser consideradas una sorpresa por parte de los participantes y si así lo estimase puede preparar a su unidad para las competencias.</p>
+	<p>De la misma manera queremos motivar a todos que los participantes que lleguen motivados por la cultura Rapa Nui y la competencia, por lo que los invitamos a que puedan llegar con un Takona realizado desde antes al lugar para que por toda la región se vea la importancia del pueblo Rapa Nui al menos por un día, Takona es la pintura corporal propia del pueblo Rapa Nui (no es necesario pintar todo el cuerpo, un lindo motivo Rapa Nui pintado en sus caras será muy agradecido)</p>
+	<p>Las competencias que se efectuarán serán las siguientes, algunas de ellas consideran una competencia diferenciada con respecto a Manada y Bandada para que no efectúen acciones que los puedan dañar pero que de igual manera sean desafiantes, en las fichas de actividad más abajo se especifican los casos en los que corresponde y como se hará la modificación:</p>
+	<p>
+		- <b>Ara Vaka –</b> Competencia que representara la llegada de los primeros habitantes a Rapa Nui<br>
+		- <b>Haka Honu -</b> consiste en deslizarse sobre las olas sólo con el cuerpo, adoptando una peculiar postura que imita el modo en que las tortugas se acercan hasta la orilla<br>
+		- <b>He 'a'ati hoi –</b> Competencia de carrera de Caballos.<br>
+		- <b>Tangata Manu –</b> consiste en representar la antigua competencia de Tangata Manu simbólicamente y simulando el trayecto.<br>
+		- <b>He 'a Ati Ruku Mata e Oru –</b> Representación de competencia de Caza Submarina con lanza tradicional.<br>
+		- <b>Naki Naki –</b> Carnaval y caravana, un desfile con carros alegóricos construidos por los competidores.<br>
+	</p>
+	<p>Si quieres tener mayor detalle de las activides revisa las fichas de cada una en el <a href="{{site.baseurl}}/assets/pdf/TapatiGuiaScout2019.pdf" target="_blank">Documento detallado de la actividad</a></p>
+</div>
+<div id="operacion">
+	<h3>Sistema de operación</h3>
+	<p>Las actividades se llevarán a cabo mediante un sistema modular donde irán rotando las unidades entre 6 módulos que contienen las competencias, cada actividad tiene una duración de 30 minutos y se considera a su vez un tiempo de traslado y/o margen de error de 15 minutos, excepto el traslado entre “Haka Honu” y “He 'a'ati hoi” que considera un traslado de 30 minutos para que se puedan cambiar ropa, también hay un tiempo de colación de 30 minutos.</p>
+	<p>Los puntos de inicio de cada unidad son los siguientes: Bandada > Ara Vaka / Manada > Haka Honu / Clan > He ‘a’ati hoi / Avanzada > Tangata Manu / Compañía > He ‘a Ati Ruku Mata e Oru / Tropa > Naki naki</p>
+	
+	<amp-img src="/assets/images/TapatiCircuito.png"
+		width="446"
+		height="464"
+		layout="responsive"
+		alt="{{page.title}}">
+		<amp-img placeholder
+			src="/assets/images/NuaMana.svg"
+			layout="fill">
+		</amp-img>
+	</amp-img>
+</div>
+<div id="puntaje">
+	<h3>Sistema de Evaluación y Puntaje</h3>
+	<p>El sistema de puntaje será efectuado dentro de cada unidad, si consideramos que la competencia será entre los equipos de cada unidad, puede darse en muchos casos que ambas patrullas de una misma unidad y/o de un mismo grupo estén compitiendo por los primeros lugares dentro de su circuito, y es que, por ejemplo, todas las patrullas, de todas tropas, de todos los grupos, irán siempre compitiendo en el mismo ciclo de módulos. De esta manera también se utilizara un puntaje 0 a 15 para los primeros quince equipos que terminen la prueba, siendo entregados de la siguiente manera al primer lugar 15 puntos, al segundo lugar 14 puntos, al tercer lugar 13 puntos y así hasta llegar al número 15, todo equipo bajo el lugar número 15 no recibirá puntaje esto también con el fin de no incrementar demasiado las diferencias en puntaje y que dentro de lo posible mantenga la competencia interesante con la finalidad de que esta pueda ser remontada por los demás equipos.</p>
+</div>
+<div id="colaboracion">
+	<h3>Colaboración y Trabajo de Dirigentes y Guiadoras</h3>
+	<p>Es importante señalar que el equipo organizador cuenta con poca gente por lo que necesitamos que cada dirigente de los grupos participantes se involucre en la actividad, ayude en la evaluación, control y desarrollo de cada modulo es por lo mismo que más abajo se explicara cada actividad en su ficha de actividad correspondiente. El Tapati Rapa Nui es una celebración también de hermandad, que este Tapati Guia y Scout sea una celebración de nuestra hermandad como grupos y como Scouts.</p>
+</div>
+<div id="contacto">
+	<h3>Contacto</h3>
+	<p>Para mayor detalle de las actividades y/o del mismo Tapati puede consultar al Responsable de la coordinación Claudio Mateluna al fono (+ 56 9) 6689 6001 ya sea por whatsapp o telefónicamente; también puede efectuar sus consultas en el Instagram del Evento @tapati_scout, al evento pueden asistir tanto grupos, como unidades y/o equipos, existe una proyección para este año de 600 participantes al evento por favor considere esto e inscríbase a la brevedad, una vez cancelado el costo del evento por persona se coordinara para entregar la insignia del evento, para puedan portarla en el uniforme durante el evento ya que se utilizara para que los asistentes puedan ingresar gratuitamente a los servicios higiénicos. (considere que se hará entrega a contar de finales de septiembre)</p>
+</div>
+<div id="cronograma">
+	<h3>Cronograma</h3>
+	<p><b>10.45 –</b> Apertura y Presentaciones<br>
+		<b>11.30 –</b> 1° Ciclo de Módulos<br>
+		<b>12.00 –</b> Fin de Ciclo<br>
+		<b>12.15 –</b> 2° Ciclo de Módulos<br>
+		<b>12.45 –</b> Fin de Ciclo<br>
+		<b>13.00 –</b> 3° Ciclo de Módulos<br>
+		<b>13.30 –</b> Fin de Ciclo<br>
+		<b>13.45 –</b> Colación<br>
+		<b>14.15 –</b> Fin de Colación<br>
+		<b>14.30 –</b> 4° Ciclo de Módulos<br>
+		<b>15.00 –</b> Fin de Ciclo<br>
+		<b>15.15 –</b> 5° Ciclo de Módulos<br>
+		<b>15.45 –</b> Fin de Ciclo<br>
+		<b>16.00 –</b> 6° Ciclo de Módulos<br>
+		<b>16.30 –</b> Fin de Ciclo<br>
+		<b>16.45 –</b> Cierre de Evento y Premiación<br></p>
+</div>
+</div>

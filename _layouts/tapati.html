@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ⚡ lang="es">
+	{% include head.html %}
+<body class="amp-mode-mouse tapatiBody">
+	{% include headerTapati.html %}
+	<main class="max-width-6 mx-auto" role="main">
+	<article class="clearfix" role="article">
+		<div class="col sm-col-12 md-col-9 TapatiContenido my2">
+			<amp-img src="/assets/images/TapatiLetrassvg.svg"
+					width="130"
+					height="46"
+					layout="responsive"
+					alt="{{page.title}}">
+					<amp-img placeholder
+    					src="/assets/images/NuaMana.svg"
+    					layout="fill">
+    				</amp-img>
+				</amp-img>
+			{{ content }}
+		</div>
+		<aside class="col sm-col-12 md-col-3 pt2 pl1">
+			<figure class="card-img-top">
+				<amp-img src="/assets/images/TapatiAficheWeb2019.svg"
+					width="320"
+					height="415"
+					layout="responsive"
+					alt="{{page.title}}">
+					<amp-img placeholder
+    					src="/assets/images/NuaMana.svg"
+    					layout="fill">
+    				</amp-img>
+				</amp-img>
+				<figcaption class="hide">{{page.title}}</figcaption>
+			</figure>
+		</aside>
+	</article>
+</main>
+	{% include analytics.html %}
+</body>
+</html>
