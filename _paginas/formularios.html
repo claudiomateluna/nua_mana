@@ -2,12 +2,16 @@
 layout: pages
 title: Formularios
 resumen: descarga los formularios y completalos digitalmente envialos al correo nuamana@nuamana.com
+img: 'assets/images/NuaManaByN_svg.svg'
 formularios:
   - nombre: 'Formulario de Inscripción'
     url: 'https://docs.google.com/forms/d/e/1FAIpQLScoPOEImHLUSs2ZOoO7fKOHbjU8erZfBtQJZIR2838UuyBnXA/viewform'
     imagen: '/assets/images/googleForm.svg'
   - nombre: 'Ficha de Autorización'
-    url: '/assets/pdf/fichadeautorizacion.pdf'
+    url: '/assets/pdf/FichaAutorización2020_Digital.pdf'
+    imagen: '/assets/images/pdf.svg'
+  - nombre: 'Ficha de Médica'
+    url: '/assets/pdf/FichaMedica2020_Digital.pdf'
     imagen: '/assets/images/pdf.svg'
 categories:
   - descargas
@@ -18,10 +22,10 @@ informacion: 'Los formularios a continuacion con el icono morado son completados
 {{page.informacion}}
 <!--<a href="{{site.baseurl}}/assets/pdf/fichaInscripcion2018_digital.pdf" class="forA">-->
 {% for item in page.formularios %}
-<a href="{{item.url}}" target="_blank" class="forA">
-<div class="forD">
-	<div class="formularios left">
-		<div class="formularios_">
+<a href="{{site.baseurl}}/assets/pdf/ComunicadoTapati2019.pdf" target="_blank" class="forA">
+<div class="tapati_forD">
+	<div class="tapati_formularios left">
+		<div class="tapati_formularios_">
 			<amp-img src="{{item.imagen}}"
 				width="48"
 				height="48"
@@ -34,7 +38,7 @@ informacion: 'Los formularios a continuacion con el icono morado son completados
 			</amp-img>
 		</div>
 	</div>
-	<div class="forN">
+	<div class="tapati_forN">
 		{{item.nombre}}
 	</div>
 </div>

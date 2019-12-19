@@ -8,19 +8,36 @@ layout: default
 			{{ content }}
 		</div>
 		<aside class="col sm-col-12 md-col-3 pt2 pl1">
+			{% if page.img == nil %}
 			<figure class="card-img-top">
-				<amp-img src="/assets/images/NuaMana.svg"
+				<amp-img src="/assets/images/nuamana.svg"
 					width="320"
 					height="231"
 					layout="responsive"
 					alt="{{page.title}}">
 					<amp-img placeholder
-    					src="/assets/images/NuaMana.svg"
+    					src="/assets/images/nuamana.svg"
     					layout="fill">
     				</amp-img>
 				</amp-img>
 				<figcaption class="hide">{{page.title}}</figcaption>
 			</figure>
+			{% endif %}
+			{% unless page.img == nil %}
+			<figure class="card-img-top">
+				<amp-img src="{{site.baseurl}}/{{page.img}}"
+					width="320"
+					height="300"
+					layout="responsive"
+					alt="{{page.title}}">
+					<amp-img placeholder
+    					src="/assets/images/nuamana.svg"
+    					layout="fill">
+    				</amp-img>
+				</amp-img>
+				<figcaption class="hide">{{page.title}}</figcaption>
+			</figure>
+			{% endunless %}
 		</aside>
 	</article>
 </main>
