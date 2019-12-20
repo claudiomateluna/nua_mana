@@ -13,6 +13,13 @@ formularios:
   - nombre: 'Ficha de Médica'
     url: '/assets/pdf/FichaMedica2020_Digital.pdf'
     imagen: '/assets/images/pdf.svg'
+administrativos:
+  - nombre: 'Check List de Buses'
+    url: '/assets/pdf/FichaCheckListBuses_digital.pdf'
+    imagen: '/assets/images/pdf.svg'
+  - nombre: 'Constancia a Carabineros'
+    url: '/assets/pdf/FichaConstanciaCampamCarabineros_Digital.pdf'
+    imagen: '/assets/images/pdf.svg'
 categories:
   - descargas
 informacion: 'Los formularios a continuacion con el icono morado son completados online utilizando su cuenta Google, mientras que los formularios que tienen el icono que dice pdf pueden ser completados en su celular utilizando adobe acrobat'
@@ -22,6 +29,31 @@ informacion: 'Los formularios a continuacion con el icono morado son completados
 {{page.informacion}}
 <!--<a href="{{site.baseurl}}/assets/pdf/fichaInscripcion2018_digital.pdf" class="forA">-->
 {% for item in page.formularios %}
+<a href="{{site.baseurl}}{{item.url}}" target="_blank" class="forA">
+<div class="tapati_forD">
+	<div class="tapati_formularios left">
+		<div class="tapati_formularios_">
+			<amp-img src="{{item.imagen}}"
+				width="48"
+				height="48"
+				layout="responsive"
+				alt="{{page.title}}">
+				<amp-img placeholder
+					src="/assets/images/NuaMana.svg"
+					layout="fill">
+				</amp-img>
+			</amp-img>
+		</div>
+	</div>
+	<div class="tapati_forN">
+		{{item.nombre}}
+	</div>
+</div>
+</a>
+{% endfor %}
+<h3>Formularios Administrativos</h3>
+<p>Los formularios a continuación son utilizados por el equipo de dirigentes para temas administrativos</p>
+{% for item in page.administrativos %}
 <a href="{{site.baseurl}}{{item.url}}" target="_blank" class="forA">
 <div class="tapati_forD">
 	<div class="tapati_formularios left">
