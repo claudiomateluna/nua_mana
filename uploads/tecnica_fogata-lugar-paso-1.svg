@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 615.1 362.4" style="enable-background:new 0 0 615.1 362.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#9B793D;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#94A8AF;}
+	.st3{fill:none;stroke:#636464;stroke-width:7;stroke-linecap:round;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#BF552A;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M432.3,362.4h-249c-6.6,0-12-5.4-12-12V38.9c0-6.6,5.4-12,12-12h249c6.6,0,12,5.4,12,12v311.5
+	C444.3,357,438.9,362.4,432.3,362.4z"/>
+<rect x="197.8" y="47.7" class="st1" width="220" height="290.5"/>
+<path class="st2" d="M333.3,21c-2.3-12-12.9-21-25.5-21c-12.7,0-23.2,9-25.5,21c-0.5,2.7-2.7,5.4-5.4,5.9l-56,11.1
+	c-2.7,0.5-4.9,3.2-4.9,6v10.5c0,2.8,2.2,5,5,5h173.6c2.8,0,5-2.2,5-5V44c0-2.8-2.2-5.4-4.9-6l-56-11.1
+	C335.9,26.4,333.8,23.7,333.3,21z M307.7,35.7c-5.4,0-9.7-4.3-9.7-9.7s4.3-9.7,9.7-9.7c5.4,0,9.7,4.3,9.7,9.7S313.1,35.7,307.7,35.7
+	z"/>
+<line class="st3" x1="216" y1="124.9" x2="396.2" y2="124.9"/>
+<line class="st3" x1="216" y1="198.2" x2="383.1" y2="198.2"/>
+<line class="st3" x1="216" y1="239.5" x2="302.8" y2="239.5"/>
+<line class="st3" x1="216" y1="279.5" x2="367.3" y2="279.5"/>
+<line class="st3" x1="216" y1="159" x2="370.6" y2="159"/>
+<circle class="st3" cx="307.5" cy="91.1" r="18.1"/>
+<path class="st4" d="M571.7,208.6c-22,0-39.9,17.9-39.9,39.9c0,26.1,39.9,63.6,39.9,63.6s39.9-37.5,39.9-63.6
+	C611.6,226.5,593.7,208.6,571.7,208.6z M571.7,265.4c-9.3,0-16.8-7.5-16.8-16.8c0-9.3,7.5-16.8,16.8-16.8c9.3,0,16.8,7.5,16.8,16.8
+	C588.5,257.8,581,265.4,571.7,265.4z"/>
+<g>
+	<ellipse transform="matrix(0.8144 -0.5804 0.5804 0.8144 -53.67 50.3304)" class="st4" cx="51.8" cy="109.1" rx="48.3" ry="48.3"/>
+	<line class="st4" x1="91.2" y1="81" x2="12.7" y2="136.9"/>
+</g>
+</svg>
